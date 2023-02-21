@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManipularArquivos", "Manipu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diretorio", "Diretorio\Diretorio.csproj", "{FB1EA579-AEEE-495E-A1E2-C9C7538DE48D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirInfo", "DirInfo\DirInfo.csproj", "{7D1510B7-68B6-4845-BE32-49298BDBA2FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FB1EA579-AEEE-495E-A1E2-C9C7538DE48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB1EA579-AEEE-495E-A1E2-C9C7538DE48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB1EA579-AEEE-495E-A1E2-C9C7538DE48D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1510B7-68B6-4845-BE32-49298BDBA2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1510B7-68B6-4845-BE32-49298BDBA2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1510B7-68B6-4845-BE32-49298BDBA2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1510B7-68B6-4845-BE32-49298BDBA2FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

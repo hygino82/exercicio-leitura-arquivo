@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LerEscrever
 {
-    public partial class Form1 : Form
+    public partial class btnLerTxt : Form
     {
-        public Form1()
+        public btnLerTxt()
         {
             InitializeComponent();
         }
@@ -40,9 +40,35 @@ namespace LerEscrever
                 //writer.Dispose();
                 writer.Close();
             }
+            txtConteudo.Clear();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtConteudo.Clear();
+
+            string path = @"c:\teste\file.txt";
+            StreamReader reader = new StreamReader(path, Encoding.Default);
 
 
+            string txt = reader.ReadToEnd();
+            txtConteudo.Text += txt;
+            //string linha = reader.ReadLine();
 
+            //while (linha != null)
+            //{
+            //    txtConteudo.Text += linha + "\n";
+            //    linha = reader.ReadLine();
+            //}
+
+            
+            //while (!reader.EndOfStream)
+            //{
+            //    char c = (char)reader.Read();
+            //    txtConteudo.Text += c;
+            //}
+
+            reader.Close();
         }
     }
 }
